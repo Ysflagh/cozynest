@@ -1,3 +1,15 @@
 {
-  "offers": []
+  "offers": [
+    {
+      "category": "walldecor",
+      "title": "Free 3D Room Planner: Design Your Space Online",
+      "image": "/uploads/Modern 2-Bedroom Apartment Design Poster.png",
+      "price": "",
+      "oldPrice": "",
+      "coupon": "HS10",
+      "badge": "FREE TO TRY",
+      "expires": "",
+      "link": "https://fas.st/vu2xLT"
+    }
+  ]
 }
