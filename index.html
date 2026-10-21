@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CozyNest | Home & Decor Deals and Coupon Codes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,800;1,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c4553a'/%3E%3Cpath d='M19 34l9 9 17-21' stroke='white' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#faf5ee">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CozyNest | Home & Decor Deals and Coupon Codes">
+<meta property="og:description" content="Hand-picked home, furniture and decor deals with coupon codes.">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#faf5ee;--ink:#2a211a;--text:#2a211a;--muted:#7d6e61;--line:rgba(70,45,25,.14);--card:#fff;--a1:#c4553a;--a2:#e08a4f;--a3:#6f9275;--a4:#d9a441;--grad:linear-gradient(120deg,#c4553a,#e08a4f)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background-image:radial-gradient(rgba(120,80,40,.1) 1.5px,transparent 1.5px);background-size:30px 30px;mask-image:linear-gradient(#000,transparent 70%);-webkit-mask-image:linear-gradient(#000,transparent 70%)}
+a{color:inherit;text-decoration:none}
+h1,h2,.logo{font-family:Fraunces,Georgia,serif}
+svg{stroke-linecap:round;stroke-linejoin:round}
+.wrap{max-width:1240px;margin:0 auto;padding:0 18px}
+.bg{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+.bg i{position:absolute;border-radius:50%;filter:blur(80px);opacity:.55;animation:drift 20s ease-in-out infinite alternate}
+.bg i:nth-child(1){width:420px;height:420px;background:#f0c4a4;left:-100px;top:8%}
+.bg i:nth-child(2){width:380px;height:380px;background:#c3d9c4;right:-90px;top:40%;animation-delay:-7s}
+.bg i:nth-child(3){width:360px;height:360px;background:#f4dca0;left:35%;bottom:-130px;animation-delay:-13s}
+@keyframes drift{to{transform:translate(60px,-70px) scale(1.15)}}
+@keyframes fade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-16px) rotate(6deg)}}
+@keyframes shine{to{left:140%}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(196,85,58,.5)}50%{box-shadow:0 0 0 7px rgba(196,85,58,0)}}
+.notice{background:var(--a3);color:#fff;font-size:12.5px;font-weight:500;text-align:center;padding:8px 12px}
+header{position:sticky;top:0;z-index:30;background:rgba(250,245,238,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top{display:flex;gap:16px;align-items:center;padding:12px 0}
+.logo{font-size:29px;font-weight:800;letter-spacing:-.5px}
+.logo span{color:var(--a1);font-style:italic}
+.search{flex:1}
+.search input{width:100%;padding:12px 20px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:15px;outline:none;transition:.25s}
+.search input::placeholder{color:var(--muted)}
+.search input:focus{border-color:var(--a2);box-shadow:0 0 0 4px rgba(224,138,79,.18)}
+.cats{display:flex;gap:8px;overflow-x:auto;padding:0 0 12px;scrollbar-width:none}
+.cats::-webkit-scrollbar{display:none}
+.cats a{white-space:nowrap;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:13.5px;font-weight:500;transition:.25s}
+.cats a:hover{background:var(--a1);color:#fff;border-color:transparent;transform:translateY(-2px)}
+.ni svg{width:15px;height:15px;margin-right:6px;vertical-align:-2px;stroke-width:2}
+.hero{position:relative;text-align:center;padding:70px 0 40px}
+.chip{display:inline-block;padding:6px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:13px;color:var(--a1);font-weight:600;margin-bottom:20px;animation:fade .8s both}
+.hero h1{font-size:clamp(38px,6.4vw,74px);line-height:1.04;letter-spacing:-2px;font-weight:800;animation:fade .8s .1s both}
+.hero h1 em{color:var(--a1);font-style:italic}
+.hero p{max-width:600px;margin:18px auto 0;color:var(--muted);font-size:17px;animation:fade .8s .2s both}
+.stats{display:flex;justify-content:center;gap:14px;margin-top:30px;flex-wrap:wrap;animation:fade .8s .3s both}
+.stats div{padding:12px 24px;border-radius:16px;border:1px solid var(--line);background:#fff}
+.stats b{display:block;font-family:Fraunces,serif;font-size:26px;color:var(--a1)}
+.stats small{color:var(--muted);font-size:12px}
+.fl{position:absolute;font-size:38px;opacity:.85;animation:float 6s ease-in-out infinite;pointer-events:none}
+.fl:nth-of-type(1){left:6%;top:90px}.fl:nth-of-type(2){right:7%;top:70px;animation-delay:-2s}.fl:nth-of-type(3){left:12%;bottom:30px;animation-delay:-4s}.fl:nth-of-type(4){right:12%;bottom:50px;animation-delay:-1s}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:10px 0 40px}
+.tile{padding:18px 10px;text-align:center;border-radius:20px;border:1px solid var(--line);background:#fff;font-size:13.5px;font-weight:600;transition:.3s}
+.tile .ti{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 10px;border-radius:17px;background:linear-gradient(135deg,#6f9275,#a8c5ab);transition:.3s}
+.tile:nth-child(even) .ti{background:linear-gradient(135deg,#c4553a,#e08a4f)}
+.ti svg{width:28px;height:28px;color:#fff;stroke-width:1.8}
+.tile:hover{transform:translateY(-6px);border-color:var(--a2);box-shadow:0 16px 30px -14px rgba(196,85,58,.5)}
+.tile:hover .ti{transform:scale(1.12) rotate(-5deg)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 0 46px;counter-reset:st}
+.step{position:relative;padding:24px 18px 20px;border-radius:20px;border:1px solid var(--line);background:#fff;text-align:center;transition:.3s}
+.step:hover{transform:translateY(-5px);border-color:var(--a2)}
+.step::before{counter-increment:st;content:counter(st);position:absolute;top:-14px;left:50%;transform:translateX(-50%);width:30px;height:30px;border-radius:50%;background:var(--a1);color:#fff;font:700 14px Fraunces,serif;display:grid;place-items:center}
+.step svg{width:34px;height:34px;color:var(--a3);stroke-width:1.7;margin-bottom:8px}
+.step b{display:block;font-family:Fraunces,serif;font-size:17px;margin-bottom:2px}
+.step small{color:var(--muted)}
+section{margin:0 0 44px;opacity:0;transform:translateY(30px);transition:.7s}
+section.in{opacity:1;transform:none}
+.sh{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.sh h2{font-size:26px;font-weight:700}
+.sh small{color:var(--muted);font-size:13px}
+.sh .sp{flex:1}
+.hi{display:inline-grid;place-items:center;width:38px;height:38px;margin-right:10px;border-radius:12px;background:var(--a1);vertical-align:middle}
+.hi svg{width:20px;height:20px;color:#fff;stroke-width:2}
+.ar{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:18px;cursor:pointer;transition:.25s}
+.ar:hover{background:var(--a1);color:#fff;border-color:transparent}
+.more,.back{display:inline-block;padding:9px 18px;border-radius:999px;border:0;background:var(--a1);color:#fff;font-weight:600;font-size:13.5px;cursor:pointer;transition:.25s}
+.more:hover{transform:translateY(-2px);box-shadow:0 8px 20px -6px rgba(196,85,58,.6)}
+.back{display:none;background:#fff;color:var(--ink);border:1px solid var(--line)}
+.row{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 4px 18px;scrollbar-width:thin;scrollbar-color:var(--a2) transparent}
+.row::-webkit-scrollbar{height:6px}.row::-webkit-scrollbar-thumb{background:var(--a2);border-radius:6px}
+.card{position:relative;flex:0 0 255px;scroll-snap-align:start;border-radius:22px;border:1px solid var(--line);background:#fff;box-shadow:0 8px 24px -16px rgba(70,45,25,.45);overflow:hidden;display:flex;flex-direction:column;transition:.35s}
+.card:not(.empty):hover{transform:translateY(-8px);border-color:var(--a2);box-shadow:0 22px 40px -18px rgba(196,85,58,.55)}
+.card .img{height:165px;display:flex;align-items:center;justify-content:center;font-size:46px;background:linear-gradient(135deg,#f3e6d4,#ead7c0);overflow:hidden}
+.card .img img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.card:hover .img img{transform:scale(1.08)}
+.shr{position:absolute;top:10px;right:10px;z-index:2;width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:var(--ink);cursor:pointer;display:grid;place-items:center;box-shadow:0 4px 12px -4px rgba(0,0,0,.3);transition:.25s}
+.shr svg{width:16px;height:16px;stroke-width:2}
+.shr:hover,.shr.ok{background:var(--a1);color:#fff}
+.body{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}
+.title{font-weight:600;font-size:14.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:39px}
+.price b{font-family:Fraunces,serif;font-size:21px;color:var(--a1)}
+.price s{margin-left:8px;color:var(--muted);font-size:13px}
+.badge{display:inline-block;margin-left:8px;padding:3px 10px;border-radius:999px;background:var(--a1);color:#fff;font-size:11.5px;font-weight:700;vertical-align:middle;animation:pulse 2s infinite}
+.coupon{border:1.5px dashed var(--a3);background:rgba(111,146,117,.1);color:#4a6b50;border-radius:10px;padding:8px;font-weight:600;font-size:13px;cursor:pointer;transition:.25s}
+.coupon:hover{background:rgba(111,146,117,.22)}
+.exp{font-size:12px;color:var(--a1)}
+.cta{margin-top:auto;text-align:center;padding:11px;border-radius:12px;background:var(--grad);color:#fff;font-weight:700;font-size:14px;position:relative;overflow:hidden;transition:.25s}
+.cta::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:shine 3.4s infinite}
+.cta:hover{transform:scale(1.03)}
+.card.empty{min-height:290px;align-items:center;justify-content:center;border:1.5px dashed var(--line);background:transparent;box-shadow:none;color:var(--muted);text-align:center;font-size:14px}
+.card.empty b{display:block;font-size:28px;color:var(--a2)}
+.none{display:none;text-align:center;color:var(--muted);padding:40px}
+body.catpage .hero,body.catpage .tiles,body.catpage .steps,body.catpage #follow,body.catpage .two{display:none}
+body.catpage section:not(.active){display:none}
+body.catpage section.active{opacity:1;transform:none;margin-top:28px}
+body.catpage section.active .row{flex-wrap:wrap;overflow:visible}
+body.catpage .ar,body.catpage .more{display:none}
+body.catpage .back{display:inline-block}
+body.catpage .sh h2{font-size:32px}
+body.pgview main>:not(#pages){display:none}
+.band{margin:0 0 24px;padding:28px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(135deg,#fff,#f6ebdc)}
+.band h2{font-size:25px;margin-bottom:6px}
+.band>p{color:var(--muted);margin-bottom:16px}
+.social{display:flex;gap:10px;flex-wrap:wrap}
+.social a{padding:10px 20px;border-radius:999px;font-weight:600;font-size:14px;color:#fff;transition:.25s}
+.social a:hover{transform:translateY(-4px) scale(1.05)}
+.s-tt{background:#111;box-shadow:-2px -2px 0 #25f4ee,2px 2px 0 #fe2c55}.s-vk{background:#0077ff}.s-wa{background:#25d366}.s-fb{background:#1877f2}.s-ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888)}.s-tg{background:#229ed9}.s-pin{background:#e60023}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px}
+.f{display:grid;gap:10px;margin-top:14px}
+.f input:not([type=checkbox]),.f select,.f textarea{width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--ink);font:inherit;outline:none}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--a2)}
+.f .c{display:flex;gap:8px;font-size:12.5px;color:var(--muted);align-items:flex-start}
+.f button{padding:12px;border:0;border-radius:12px;background:var(--grad);color:#fff;font-weight:700;font-size:15px;cursor:pointer;transition:.25s}
+.f button:hover{transform:translateY(-2px)}
+.hp{display:none}
+.rv{padding:12px;border-radius:12px;background:#fff;border:1px solid var(--line);margin-bottom:8px;font-size:14px}
+.rv .st,.rvsum .st{color:var(--a4)}
+.rv small{color:var(--muted)}
+.rvsum{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.rvsum b{font-family:Fraunces,serif;font-size:32px;color:var(--a1)}
+.rvsum small{color:var(--muted)}
+.rvbox{max-height:340px;overflow-y:auto;padding-right:4px;margin-bottom:6px}
+.pg{display:none;max-width:780px;margin:30px auto 50px;padding:30px;border-radius:24px;border:1px solid var(--line);background:#fff}
+.pg.active{display:block;animation:fade .5s both}
+.pg h1{font-size:34px;margin-bottom:14px}.pg h2{font-size:20px;margin:20px 0 6px}.pg p,.pg li{color:var(--muted);margin-bottom:8px}.pg ul{padding-left:20px}.pg a{color:var(--a1);text-decoration:underline}
+footer{border-top:1px solid var(--line);background:#f3e9da;padding:28px 0;text-align:center;color:var(--muted);font-size:12.5px}
+.flinks{display:flex;gap:18px;justify-content:center;margin-bottom:10px;flex-wrap:wrap}
+.flinks a{color:var(--ink);font-weight:500}.flinks a:hover{color:var(--a1)}
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;background:rgba(42,33,26,.55);backdrop-filter:blur(5px)}
+.modal.show{display:flex;animation:fade .4s both}
+.modal .band{position:relative;width:92%;max-width:460px;max-height:92vh;overflow:auto;margin:0;background:#fffaf3;box-shadow:0 30px 80px -20px rgba(42,33,26,.6)}
+.x{position:absolute;top:12px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:20px;cursor:pointer}
+.x:hover{background:var(--a1);color:#fff}
+.fab{position:fixed;right:18px;bottom:18px;z-index:50;padding:13px 20px;border:0;border-radius:999px;background:var(--grad);color:#fff;font-weight:700;font-size:14px;cursor:pointer;box-shadow:0 12px 30px -8px rgba(196,85,58,.7);animation:float 4s ease-in-out infinite}
+.modal.show~.fab{display:none}
+.ck{position:fixed;left:14px;bottom:14px;z-index:90;max-width:470px;display:none;gap:12px;align-items:center;padding:12px 16px;border-radius:16px;border:1px solid var(--line);background:#fff;box-shadow:0 14px 30px -12px rgba(70,45,25,.4);font-size:12.5px;color:var(--muted)}
+.ck.show{display:flex}
+.ck button{flex:none;padding:8px 16px;border:0;border-radius:999px;background:var(--a1);color:#fff;font-weight:700;cursor:pointer}
+.ck a{color:var(--a1);text-decoration:underline}
+.totop{position:fixed;right:18px;bottom:76px;z-index:50;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:20px;cursor:pointer;display:none}
+.totop.show{display:block}.totop:hover{background:var(--a1);color:#fff}
+@media(max-width:760px){.two,.steps{grid-template-columns:1fr}.top{flex-wrap:wrap}.fl{display:none}.card{flex-basis:225px}.sh h2{font-size:21px}.modal{align-items:flex-end}.modal .band{width:100%;border-radius:24px 24px 0 0}.ck{right:14px;bottom:76px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}section{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<div class="notice">Affiliate disclosure: some links on this site are affiliate links. If you buy through them we may earn a commission at no extra cost to you.</div>
+
+<header>
+  <div class="wrap">
+    <div class="top">
+      <a href="#" class="logo">Cozy<span>Nest</span></a>
+      <div class="search"><input id="q" type="search" placeholder="Search deals, brands, coupon codes..."></div>
+    </div>
+    <nav class="cats" id="nav"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="fl">🛋️</span><span class="fl">🪴</span><span class="fl">💡</span><span class="fl">🖼️</span>
+    <span class="chip">✨ New home &amp; decor deals every week</span>
+    <h1>Make your home <em>feel like you</em></h1>
+    <p>Hand-picked furniture, decor, lighting and organization deals, with coupon codes that work.</p>
+    <div class="stats">
+      <div><b id="st1">0</b><small>Live offers</small></div>
+      <div><b id="st2">0</b><small>Categories</small></div>
+      <div><b>100%</b><small>Hand-picked</small></div>
+    </div>
+  </div>
+  <div class="tiles" id="tiles"></div>
+  <div class="steps">
+    <div class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><b>Pick a deal</b><small>Browse a category or search a brand.</small></div>
+    <div class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><b>Copy the code</b><small>Tap the dashed button to copy the coupon.</small></div>
+    <div class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 4h2l2 12h11l2-8H7"/><circle cx="9" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/></svg><b>Save at checkout</b><small>Open the store and paste the code.</small></div>
+  </div>
+  <div id="sections"></div>
+  <div class="none" id="none">No deals match your search.</div>
+
+  <div id="pages">
+    <article class="pg" id="pg-about"><h1>About CozyNest</h1>
+      <p>CozyNest is a small, independent site that collects online deals and coupon codes in one place, so you do not have to search store by store.</p>
+      <h2>How we pick deals</h2><p>We hand-pick offers from stores and partner programs, check that the link works, and remove offers that have ended.</p>
+      <h2>How we earn money</h2><p>Some links are affiliate links. If you buy through them we may earn a commission at no extra cost to you. This helps keep the site free.</p>
+      <h2>Questions?</h2><p>Visit our <a href="#page/contact">Contact page</a>.</p></article>
+    <article class="pg" id="pg-contact"><h1>Contact us</h1>
+      <p>Questions, a broken link or a deal to suggest? Send us a message and we will answer as soon as we can.</p>
+      <form class="f" name="contact" method="POST" data-ajax="1">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp"><label>Leave empty <input name="bot-field"></label></p>
+        <input name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send message</button>
+      </form></article>
+    <article class="pg" id="pg-privacy"><h1>Privacy Policy</h1><p>Last updated: October 2026</p>
+      <h2>Who we are</h2><p>CozyNest is a deals and coupon website.</p>
+      <h2>What we collect</h2>
+      <ul><li>Email address and/or phone number, only if you subscribe to our deal alerts.</li><li>Name, rating and message, if you send a review or contact us.</li></ul>
+      <p>Forms are processed through our form service provider.</p>
+      <h2>How we use it</h2><p>We use your details only to send the deals you asked for and to answer your messages. We never sell your data. You can ask us to stop at any time.</p>
+      <h2>Affiliate links</h2><p>Some links are affiliate links. We may earn a commission if you buy, at no extra cost to you.</p>
+      <h2>Cookies and storage</h2><p>This site uses very little browser storage (for example, to remember that you closed a popup). Third-party shops and social networks you open from our links may set their own cookies.</p>
+      <h2>Your rights</h2><p>You can ask to see, correct or delete your data through our <a href="#page/contact">Contact page</a>.</p></article>
+  </div>
+
+
+  <div class="band" id="follow">
+    <h2>Follow us for daily deals</h2>
+    <p>Get new offers and coupon codes first.</p>
+    <div class="social" id="social"></div>
+  </div>
+
+  <div class="two">
+    <div class="band" id="reviews" style="margin:0">
+      <h2>Customer reviews</h2>
+      <p>Only real reviews from real visitors. Tell us about a deal you used.</p>
+      <div id="rvlist"></div>
+      <form class="f" name="review" method="POST" data-ajax="1">
+        <input type="hidden" name="form-name" value="review">
+        <p class="hp"><label>Leave empty <input name="bot-field"></label></p>
+        <input name="name" placeholder="Your first name" required>
+        <select name="rating" required>
+          <option value="">Rating</option>
+          <option value="5">5 - Excellent</option><option value="4">4 - Good</option>
+          <option value="3">3 - OK</option><option value="2">2 - Poor</option><option value="1">1 - Bad</option>
+        </select>
+        <textarea name="message" rows="3" placeholder="Your honest experience" required></textarea>
+        <label class="c"><input type="checkbox" name="honest" required> I confirm this review is my own honest experience. It may be published after approval.</label>
+        <button type="submit">Send review</button>
+      </form>
+    </div>
+
+
+    <div class="band" id="subscribe" style="margin:0">
+      <h2>Get deals by email</h2>
+      <p>New offers and coupon codes. No spam, unsubscribe anytime.</p>
+    <form class="f" name="newsletter" method="POST" data-ajax="1">
+      <input type="hidden" name="form-name" value="newsletter">
+      <p class="hp"><label>Leave empty <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="Your email (optional if you add a phone)">
+      <label class="c"><input type="checkbox" name="consent_email"> I agree to receive deal emails and I can unsubscribe at any time.</label>
+      <input type="tel" name="phone" placeholder="Phone number (optional if you add an email)">
+      <label class="c"><input type="checkbox" name="consent_sms"> I agree to receive text messages with deals at this number. Message and data rates may apply. Reply STOP to opt out.</label>
+      <button type="submit">Subscribe</button>
+      <small style="color:var(--muted)">We use your details only to send you deals. We never sell them. See our <a href="#page/privacy" style="text-decoration:underline">privacy policy</a>.</small>
+    </form>
+    </div>
+  </div>
+</main>
+
+<div class="modal" id="subModal">
+<div class="band" id="subBox"><button class="x" type="button" aria-label="Close">&times;</button>
+  <h2>🎁 Don't miss new deals</h2>
+  <p>New offers and coupon codes. No spam, unsubscribe anytime.</p>
+  <div id="subSlot"></div>
+</div>
+</div>
+<div class="ck" id="ck"><span>This site uses minimal storage and links to third-party shops that may use cookies. <a href="#page/privacy">Learn more</a></span><button id="ckOk" type="button">OK</button></div>
+<button class="totop" id="toTop" type="button" aria-label="Back to top">&uarr;</button>
+<button class="fab" id="subFab" type="button">🔔 Get deals</button>
+
+<footer>
+  <div class="wrap"><div class="flinks"><a href="#page/about">About</a><a href="#page/contact">Contact</a><a href="#page/privacy">Privacy Policy</a></div>&copy; 2026 CozyNest. Prices and availability may change; check the store for the final price.<br>
+  We are not the store. We link to third-party shops and may earn commissions from qualifying purchases.</div>
+</footer>
+
+<script>
+const CATEGORIES = [
+  {id:"living",    name:"Living Room",            icon:"🛋️"},
+  {id:"bedroom",   name:"Bedroom",                icon:"🛏️"},
+  {id:"kitchen",   name:"Kitchen & Dining",       icon:"🍽️"},
+  {id:"bath",      name:"Bath",                   icon:"🛁"},
+  {id:"walldecor", name:"Wall Decor & Art",       icon:"🖼️"},
+  {id:"lighting",  name:"Lighting",               icon:"💡"},
+  {id:"storage",   name:"Storage & Organization", icon:"🧺"},
+  {id:"outdoor",   name:"Garden & Outdoor",       icon:"🪴"}
+];
+const SLOTS_PER_CATEGORY = 4;
+let OFFERS = {};
+
+const asset = p => String(p || "").replace(/^\/+/, "");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ============================================================
+   SOCIAL LINKS: replace each link with your own page/group.
+   Leave "" (empty) to hide a button.
+   ============================================================ */
+/* FORMS: create a free form at formspree.io and paste its link here */
+const FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+
+const SOCIAL = [
+  {cls:"s-fb",  name:"Facebook",  link:"https://www.facebook.com/YOUR_PAGE"},
+  {cls:"s-ig",  name:"Instagram", link:"https://www.instagram.com/YOUR_ACCOUNT"},
+  {cls:"s-tt",  name:"TikTok",    link:"https://www.tiktok.com/@YOUR_ACCOUNT"},
+  {cls:"s-pin", name:"Pinterest", link:"https://www.pinterest.com/YOUR_PINTEREST_NAME/"},
+  {cls:"s-vk",  name:"VK",        link:"https://vk.com/YOUR_PAGE"},
+  {cls:"s-wa",  name:"WhatsApp Group", link:"https://chat.whatsapp.com/YOUR_GROUP_CODE"},
+  {cls:"s-tg",  name:"Telegram",  link:"https://t.me/YOUR_CHANNEL"}
+];
+document.getElementById("social").innerHTML = SOCIAL.filter(x => x.link).map(x =>
+  `<a class="${x.cls}" href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join("");
+
+const ICON_PATHS = {
+  living:'<path d="M4 11V8a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3"/><path d="M2 12a2 2 0 0 1 4 0v3h12v-3a2 2 0 0 1 4 0v6H2z"/><path d="M5 18v2M19 18v2"/>',
+  bedroom:'<path d="M3 18V7"/><path d="M3 14h18v4"/><path d="M21 18v-4a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="11" r="2"/>',
+  kitchen:'<path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10"/><path d="M17 3c-2 2-3 5-3 8h3v10"/>',
+  bath:'<path d="M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 20l-1 2M18 20l1 2"/>',
+  walldecor:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="9" cy="8.5" r="1.5"/>',
+  lighting:'<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/>',
+  storage:'<rect x="3" y="3" width="18" height="6" rx="1"/><rect x="3" y="11" width="18" height="10" rx="1"/><path d="M10 6h4M10 16h4"/>',
+  outdoor:'<path d="M12 21v-9"/><path d="M12 12c0-4 3-6 7-6 0 4-3 6-7 6z"/><path d="M12 15c0-3-2-5-6-5 0 3 2 5 6 5z"/>',
+  top:'<path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9z"/>'
+};
+const ico = id => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor">${ICON_PATHS[id] || ""}</svg>`;
+const SHARE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>';
+const expired = o => { if(!o.expires) return false; const t = String(o.expires); const d = new Date(t.length <= 10 ? t + "T23:59:59" : t); return !isNaN(d) && d < new Date(); };
+const fmtDate = t => { t = String(t); const d = new Date(t.length <= 10 ? t + "T00:00:00" : t); return isNaN(d) ? t : d.toLocaleDateString("en", {month:"short", day:"numeric"}); };
+
+function topSection(){
+  const all = [].concat(...CATEGORIES.map(c => (OFFERS[c.id] || []).map(o => Object.assign({}, o, {_i:c.icon}))));
+  const top = all.filter(o => o.badge || o.coupon).sort((a, b) => (b.badge ? 1 : 0) - (a.badge ? 1 : 0)).slice(0, 10);
+  if(!top.length) return "";
+  return `<section id="top"><div class="sh"><h2><span class="hi">${ico("top")}</span>Top Deals</h2><small>Best picks right now</small><span class="sp"></span>
+    <button class="ar" data-dir="-1" aria-label="Scroll left">&#8249;</button><button class="ar" data-dir="1" aria-label="Scroll right">&#8250;</button></div>
+    <div class="row">${top.map(o => offerCard(o, o._i)).join("")}</div></section>`;
+}
+
+function offerCard(o, icon){
+  const img = o.image ? `<img src="${esc(asset(o.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${icon}'))">` : icon;
+  return `<article class="card" data-s="${esc(((o.title||"")+" "+(o.coupon||"")).toLowerCase())}">
+    <div class="img">${img}</div>
+    <button class="shr" data-t="${esc(o.title)}" aria-label="Share" title="Share">${SHARE_SVG}</button>
+    <div class="body">
+      <div class="title">${esc(o.title)}</div>
+      <div class="price">${o.price ? `<b>${esc(o.price)}</b>` : ""}${o.oldPrice ? `<s>${esc(o.oldPrice)}</s>` : ""}${o.badge ? `<span class="badge">${esc(o.badge)}</span>` : ""}</div>
+      ${o.coupon ? `<button class="coupon" data-code="${esc(o.coupon)}">Copy code: ${esc(o.coupon)}</button>` : ""}
+      ${o.expires ? `<div class="exp">Valid until ${esc(fmtDate(o.expires))}</div>` : ""}
+      <a class="cta" href="${esc(o.link || "#")}" target="_blank" rel="sponsored noopener">Get this deal &rarr;</a>
+    </div>
+  </article>`;
+}
+const emptyCard = () => `<div class="card empty" data-empty="1"><div><b>＋</b>Your offer here</div></div>`;
+
+function render(){
+  document.getElementById("nav").innerHTML = CATEGORIES.map(c => `<a href="#${c.id}"><span class="ni">${ico(c.id)}</span>${esc(c.name)}</a>`).join("");
+  document.getElementById("tiles").innerHTML = CATEGORIES.map(c => `<a class="tile" href="#${c.id}"><b class="ti">${ico(c.id)}</b>${esc(c.name)}</a>`).join("");
+  document.getElementById("sections").innerHTML = topSection() + CATEGORIES.map(c => {
+    const list = OFFERS[c.id] || [];
+    const total = Math.max(SLOTS_PER_CATEGORY, list.length);
+    let html = "";
+    for(let i = 0; i < total; i++) html += list[i] ? offerCard(list[i], c.icon) : emptyCard();
+    return `<section id="${c.id}">
+      <div class="sh"><h2><span class="hi">${ico(c.id)}</span>${esc(c.name)}</h2><small>${list.length} offer${list.length === 1 ? "" : "s"}</small><span class="sp"></span>
+        <button class="ar" data-dir="-1" aria-label="Scroll left">&#8249;</button><button class="ar" data-dir="1" aria-label="Scroll right">&#8250;</button>
+        ${list.length ? `<a class="more" href="#cat/${c.id}">See all &rarr;</a>` : ""}<a class="back" href="#">&larr; All deals</a></div>
+      <div class="row">${html}</div>
+    </section>`;
+  }).join("");
+  const io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } }), {threshold:.08});
+  document.querySelectorAll("section").forEach(s => io.observe(s));
+}
+
+function count(el, to){
+  const t0 = performance.now();
+  (function step(t){ const p = Math.min(1, (t - t0) / 1200); el.textContent = Math.round(to * p); if(p < 1) requestAnimationFrame(step); })(t0);
+}
+
+function route(){
+  const m = location.hash.match(/^#cat\/(\w+)/), pg = location.hash.match(/^#page\/(\w+)/);
+  document.body.classList.toggle("catpage", !!m);
+  document.body.classList.toggle("pgview", !!pg);
+  document.querySelectorAll("section").forEach(sec => {
+    const on = !!m && sec.id === m[1];
+    sec.classList.toggle("active", on);
+    if(on) sec.classList.add("in");
+  });
+  document.querySelectorAll(".pg").forEach(p => p.classList.toggle("active", !!pg && p.id === "pg-" + pg[1]));
+  if(m || pg) window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", () => document.getElementById("subModal").classList.remove("show"));
+window.addEventListener("hashchange", route);
+render(); route();
+document.getElementById("st2").textContent = CATEGORIES.length;
+fetch("data/offers.json?v=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const list = Array.isArray(data) ? data : (data.offers || []);
+    const g = {}; CATEGORIES.forEach(c => g[c.id] = []);
+    list.forEach(o => { if(o && g[o.category] && !expired(o)) g[o.category].push(o); });
+    OFFERS = g; render(); route();
+    count(document.getElementById("st1"), list.length);
+  })
+  .catch(err => console.error("Could not load offers.json", err));
+
+document.addEventListener("click", e => {
+  const ar = e.target.closest(".ar");
+  if(ar){ const row = ar.closest("section").querySelector(".row"); row.scrollBy({left: ar.dataset.dir * 540, behavior:"smooth"}); return; }
+  const sh = e.target.closest(".shr");
+  if(sh){
+    const url = location.href.split("#")[0], t = sh.dataset.t;
+    if(navigator.share) navigator.share({title:t, text:t, url}).catch(() => {});
+    else if(navigator.clipboard) navigator.clipboard.writeText(t + " - " + url).then(() => { sh.classList.add("ok"); setTimeout(() => sh.classList.remove("ok"), 1500); });
+    return;
+  }
+  const b = e.target.closest(".coupon");
+  if(!b) return;
+  const code = b.dataset.code;
+  const done = () => { b.textContent = "Copied! " + code; setTimeout(() => b.textContent = "Copy code: " + code, 2000); };
+  if(navigator.clipboard) navigator.clipboard.writeText(code).then(done, done);
+  else { const t = document.createElement("textarea"); t.value = code; document.body.appendChild(t); t.select(); try{document.execCommand("copy")}catch(_){} t.remove(); done(); }
+});
+
+document.getElementById("q").addEventListener("input", e => {
+  const q = e.target.value.trim().toLowerCase();
+  let shown = 0;
+  document.querySelectorAll("section").forEach(sec => {
+    if(sec.id === "top"){ sec.style.display = q ? "none" : ""; return; }
+    let secShown = 0;
+    sec.querySelectorAll(".card").forEach(card => {
+      const isEmpty = card.dataset.empty === "1";
+      const ok = q ? (!isEmpty && card.dataset.s.includes(q)) : true;
+      card.style.display = ok ? "" : "none";
+      if(ok && !isEmpty) secShown++;
+    });
+    sec.style.display = (q && !secShown) ? "none" : "";
+    shown += secShown;
+  });
+  document.getElementById("none").style.display = (q && !shown) ? "block" : "none";
+});
+
+/* Reviews: loaded from data/reviews.json (add them from /admin/ after you approve them) */
+function renderReviews(list){
+  const el = document.getElementById("rvlist");
+  if(!list.length){
+    el.innerHTML = `<div class="rv"><small>No reviews yet. Be the first to share your experience.</small></div>`;
+    return;
+  }
+  const clamp = n => Math.max(1, Math.min(5, Math.round(Number(n) || 5)));
+  const avg = (list.reduce((t, r) => t + clamp(r.rating), 0) / list.length).toFixed(1);
+  el.innerHTML = `<div class="rvsum"><b>${avg}</b><span class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</span><small>from ${list.length} review${list.length === 1 ? "" : "s"}</small></div>
+    <div class="rvbox">` + list.map(r => `<div class="rv"><div class="st">${"★".repeat(clamp(r.rating))}${"☆".repeat(5 - clamp(r.rating))}</div><div>${esc(r.text)}</div><small>${esc(r.name)}${r.date ? " · " + esc(r.date) : ""}</small></div>`).join("") + `</div>`;
+}
+renderReviews([]);
+fetch("data/reviews.json?v=" + Date.now())
+  .then(r => r.json())
+  .then(d => renderReviews(Array.isArray(d) ? d : (d.reviews || [])))
+  .catch(() => {});
+
+/* Newsletter: email OR phone is enough (works for both copies of the form) */
+document.addEventListener("submit", e => {
+  const nf = e.target;
+  if(nf.getAttribute("name") !== "newsletter") return;
+  const em = nf.email.value.trim(), ph = nf.phone.value.trim();
+  let msg = "";
+  if(!em && !ph) msg = "Please enter an email or a phone number.";
+  else if(em && !nf.consent_email.checked) msg = "Please tick the email consent box.";
+  else if(ph && !nf.consent_sms.checked) msg = "Please tick the text message consent box.";
+  if(msg){ e.preventDefault(); alert(msg); }
+});
+
+/* Subscribe popup: shows once per visit after 4 seconds, button stays available */
+(function(){
+  const modal = document.getElementById("subModal");
+  const slot = document.getElementById("subSlot");
+  const open = () => {
+    if(!slot.firstChild){ slot.appendChild(document.querySelector("#subscribe form").cloneNode(true)); }
+    modal.classList.add("show");
+  };
+  const close = () => modal.classList.remove("show");
+  document.getElementById("subFab").addEventListener("click", open);
+  modal.querySelector(".x").addEventListener("click", close);
+  modal.addEventListener("click", e => { if(e.target === modal) close(); });
+  document.addEventListener("keydown", e => { if(e.key === "Escape") close(); });
+  setTimeout(() => {
+    try{ if(sessionStorage.getItem("subShown")) return; sessionStorage.setItem("subShown","1"); }catch(_){}
+    open();
+  }, 4000);
+})();
+
+/* Cookie notice + back to top */
+(function(){
+  const ck = document.getElementById("ck");
+  try{ if(!localStorage.getItem("ckOk")) ck.classList.add("show"); }catch(_){ ck.classList.add("show"); }
+  document.getElementById("ckOk").addEventListener("click", () => { ck.classList.remove("show"); try{ localStorage.setItem("ckOk", "1"); }catch(_){} });
+  const up = document.getElementById("toTop");
+  window.addEventListener("scroll", () => up.classList.toggle("show", window.scrollY > 700), {passive:true});
+  up.addEventListener("click", () => window.scrollTo({top:0, behavior:"smooth"}));
+})();
+
+/* Send forms without Netlify (Formspree) */
+document.addEventListener("submit", e => {
+  const f = e.target;
+  if(e.defaultPrevented || !f.hasAttribute("data-ajax")) return;
+  e.preventDefault();
+  const hp = f.querySelector('[name="bot-field"]'); if(hp && hp.value) return;
+  if(FORM_ENDPOINT.includes("YOUR_FORM_ID")){ alert("Forms are not connected yet."); return; }
+  const btn = f.querySelector("button[type=submit]");
+  if(btn){ btn.disabled = true; btn.textContent = "Sending..."; }
+  fetch(FORM_ENDPOINT, {method:"POST", body:new FormData(f), headers:{Accept:"application/json"}})
+    .then(r => { if(!r.ok) throw 0; f.innerHTML = '<p style="padding:14px;font-weight:600">Thank you! We received it. ✅</p>'; })
+    .catch(() => { if(btn){ btn.disabled = false; btn.textContent = "Try again"; } alert("Something went wrong. Please try again."); });
+});
+</script>
+</body>
+</html>
