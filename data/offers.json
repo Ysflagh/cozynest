@@ -11,18 +11,18 @@
       "expires": "",
       "link": "https://fas.st/vu2xLT"
     },
-       {
+    {
       "category": "lighting",
       "title": "Smart Motion Sensor Night Light | Minimalist Home Lighting 💡",
       "image": "/uploads/Night-Light.png",
-      "price": " $9.20",
+      "price": "$9.20",
       "oldPrice": "$18.40",
       "coupon": "",
       "badge": "Choice",
       "expires": "",
       "link": "https://s.click.aliexpress.com/e/_c3NPwRz5"
     },
-       {
+    {
       "category": "living",
       "title": "Modern Shag Rug | Cozy Home Decor",
       "image": "/uploads/SHAG-RUG.png",
@@ -33,7 +33,7 @@
       "expires": "",
       "link": "https://s.click.aliexpress.com/e/_c3WFoJDd"
     },
-       {
+    {
       "category": "kitchen",
       "title": "Digital Measuring Spoon Scale | 0.1g–500g",
       "image": "/uploads/measuring-spoon-scale.png",
@@ -43,6 +43,17 @@
       "badge": "choice",
       "expires": "",
       "link": "https://s.click.aliexpress.com/e/_c3h7uzrh"
+    },
+    {
+      "category": "kitchen",
+      "title": "Clear Pantry Storage Containers | Organize Your Kitchen in Style",
+      "image": "/uploads/Contenants-rangement-cuisine.png",
+      "price": "$6.50",
+      "oldPrice": "$19.05",
+      "coupon": "",
+      "badge": "choice",
+      "expires": "",
+      "link": "https://s.click.aliexpress.com/e/_c3FeFFrv"
     }
   ]
 }
